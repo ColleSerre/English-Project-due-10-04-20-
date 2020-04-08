@@ -164,7 +164,7 @@ def main():
 
         print(
             """
-            Japanese Haiku Generator
+            Poem Generator
             0 - Quit
             1 - Generate a Haiku poem
             2 - Regenerate Line 2
@@ -180,7 +180,7 @@ def main():
             print("Sayonara.")
             sys.exit()
 
-        # generate a full haiku
+        # generate a full poem
         elif choice == "1":
             final = []
             end_prev_line = []
